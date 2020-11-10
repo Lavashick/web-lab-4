@@ -3,10 +3,13 @@
     margin: 0;
     border: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
 
 
 body {
     font-family: sans-serif;
+    height: 2000px;
+    font-family: 'Oswald', sans-serif;
 }
 nav {
     background-color: #CED6DC;
@@ -84,7 +87,7 @@ nav {
 }
 .bcl li a {
     text-decoration: none;
-    color:black;
+    color:#292F33;
 }
 
 .bcl li a:hover {
@@ -102,4 +105,74 @@ nav {
 .avatar {
     position:relative;
     top:10px;
+}
+input[type="submit"] {
+    background:url(src/search.svg);
+    background-size: cover;
+    width:20px;
+    height: 20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:20px;
+    float: right;
+}
+
+input[type="search"] {
+    border: none; /* Убираем рамку */
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */ /* Ширина поля */
+    vertical-align: middle; /* Выравнивание по середине */
+    margin-left:10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    height: 40px;
+    float: left;
+    letter-spacing: 2px;
+    width:35vw;
+    font-size: 12px;
+
+}
+.search {
+    background: #fff;
+    border-radius: 20px;
+    display: block;
+    float:left;
+    margin-left:435px;
+    border:2px solid #292F33;
+}
+input:focus {
+    outline:none;
+}
+.b-but-buttons {
+    float:right;
+    list-style: none;
+    height: 40px;
+    float:left;
+    margin-left:181px;
+
+}
+.b-but {
+    padding-top:15px;
+    background-color: #CED6DC;
+    height: 55px;
+    
+}
+.b-but-buttons li {
+/*     padding-top: 12%; */
+    float:left;
+    font-size:16px;
+    font-weight: 600;
+    line-height: 3.1;
+}
+.b-but-buttons li a {
+    text-decoration: none;
+    color:#292F33;
+}
+
+.b-but-buttons li a span{
+    border-left: 1px solid #292F33;
+    padding-left:28px;
+}
+.heart {
+    padding-right:28px;
 }
