@@ -176,3 +176,107 @@ input:focus {
 .heart {
     padding-right:28px;
 }
+.first {
+    background-color: #E6EBEF;
+    height:800px;
+}
+.top-img {
+    background-color: #CED6DC;
+}
+
+.first_text {
+    margin-left:27%;
+    width:700px;
+    text-align: center;
+    position:relative;
+    top:-570px;
+    letter-spacing: 2px;
+}
+.lc {
+    font-size:12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.ultra {
+    font-size: 42px;
+    font-weight: bold;
+}
+.battery {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: regular;
+}
+.descr {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+
+}
+.descr_sec {
+    border-left:1px solid black;
+    border-right:1px solid black;
+    
+} 
+.descr_thr {
+    border-right:1px solid black;
+    
+} 
+.piece {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.first_text button:focus {
+ outline: none;
+}
+.first_text button:hover  #Эллипс_28 {
+    fill:#ef0;
+    transition: .8s;
+}
+.first_text button:focus {
+    border:none!important;
+}
+.first_text button:hover  #Эллипс_27 {
+    fill:#ef0;
+    transition: .8s;
+}
+.sides {
+    border-radius: 50%; 
+    margin-top:60px; 
+    border:1px solid black; 
+    width:38px;
+    height: 38px;
+}
+
+.car_buy {
+    position:relative;
+    left:-530px;
+    top:-700px;
+    z-index: 3;
+    border-radius: 50%;
+    opacity:70%;
+    width:100px;
+    height: 100px;
+}
+.car_buy:focus {
+    outline:none;
+    opacity:100%;
+    transition: .4s;
+}
+.first_bot {
+    position: relative;
+    top:-550px;
+}
+.socials {
+    padding-left:40px;
+    padding-top:120px;
+    float:left;
+}
+.first_bot_info {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    float:left;
+    padding-top: 140px;
+    margin-left:320px;
+    padding-right:210px;
+}
