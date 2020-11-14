@@ -526,3 +526,94 @@ input:focus {
     stroke:#ef0;
     transition: .1s;    
 }
+
+.rteo {
+    padding-top: 20px;
+    background-color: #E6EBEF;
+    text-align: center;
+}
+.rteo span {
+    background: linear-gradient(to top, #EEFF00 40%, transparent 60%);
+}
+.b4 {
+    height: 85vh;
+    background-color: #E6EBEF;
+    box-sizing: border-box;
+    width:100vw;
+    padding: 50px;
+    padding-left:100px;
+    padding-right:100px;
+}
+.b4 h1 {
+    font-size: 150px;
+    letter-spacing: 60px;
+    text-align: center;
+    opacity: .1;
+    padding-left: 50px;
+    z-index: 2;
+}
+.b4 h2 {
+    position: relative;
+    left:40%;
+    top:-140px;
+    font-size: 42px;
+    width:300px;
+    z-index: 3;
+}
+.b4_main {
+    position: relative;
+    top:-200px;
+    z-index: 0;
+    height: 100%;
+    width:100%;
+    background-image: url(src/b4_main_bg.svg);
+    background-size: contain;
+}
+.b4 .item_1 {
+    width:100px;
+    position:relative;
+    top:15px;
+    right:-210px;
+}
+.b4 .item_2 {
+    position: relative;
+    right:-390px;
+    top: 80px;
+}
+.b4 .item_3 {
+    width:100px;
+    position: relative;
+    right:-540px;
+    top:20px
+}
+.item_descr {
+    width:300px;
+    position: relative;
+    top:-320px;
+    left:470px;
+    text-align: center;
+}
+.item_descr a {
+    color: black;
+    text-decoration: none;
+}
+.item_descr h5{
+    font-size:10px;
+    font-weight: lighter;
+    letter-spacing: 1.2px;
+}
+.item_descr h3 {
+    letter-spacing: 0.4px;
+    font-size: 26px;
+    font-weight: bold;
+}
+.item_descr h4 a {
+    background: linear-gradient(to top, #EEFF00 40%, transparent 60%);
+    letter-spacing: 1.2px;
+    font-size: 10px;
+}
+.item_descr h4 {
+    font-weight: 500;
+    font-size: 10px;
+    padding-top: 5px;
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1733.281" height="725.281" viewBox="0 0 1733.281 725.281">
+  <path id="_" data-name="+" d="M1432.676,1070.8,1282.632,1220.84,1132.58,1070.8,1026.2,1177.173l150.042,150.054L1026.2,1477.268l106.378,106.378L1282.632,1433.6l150.044,150.042,106.378-106.378L1389.01,1327.227l150.044-150.054Z" transform="translate(3216.082 394.172) rotate(135)" fill="#ef0"/>
+  <path id="_-" data-name="-" d="M1282.632,1220.84,1132.58,1070.8,1026.2,1177.173l150.042,150.054L1282.632,1433.6l150.044,150.042,106.378-106.378L1389.01,1327.227Z" transform="translate(2208.082 394.172) rotate(135)" fill="#f2f3f3"/>
+  <text id="_4_days_7_hours_until_bidding_ends_on_first_lot" data-name="4 days 7 hours
+until bidding ends on first lot" transform="translate(1030.431 327.791)" fill="#292f33" font-size="12" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.18em"><tspan x="22.18" y="13">4 DAYS 7 </tspan><tspan x="29.914" y="31">HOURS</tspan><tspan x="33.117" y="49">UNTIL </tspan></text>
+  <g id="auction_tipe" data-name="auction tipe" transform="translate(-129.569 -4081.209)">
+    <path id="Контур_2383" data-name="Контур 2383" d="M80,579a13,13,0,1,1-13,13,13.016,13.016,0,0,1,13-13m0-3a16,16,0,1,0,16,16,16,16,0,0,0-16-16Zm0,13a3,3,0,1,0,3,3A3,3,0,0,0,80,589Zm0-9a1,1,0,1,0,1,1A1,1,0,0,0,80,580Zm0,22a1,1,0,1,0,1,1A1,1,0,0,0,80,602Zm12-10a1,1,0,1,0-1,1A1,1,0,0,0,92,592Zm-22,0a1,1,0,1,0-1,1A1,1,0,0,0,70,592Zm11,0v-8a1,1,0,0,0-2,0v8a1,1,0,0,0,2,0Zm-8.342,7.753,8-7a1,1,0,1,0-1.316-1.505l-8,7a1,1,0,0,0,1.316,1.505Z" transform="translate(703 3824.001)" fill="#292f33"/>
+    <text id="TIMED_auction" data-name="TIMED auction" transform="translate(783 4456)" fill="#292f33" font-size="12" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.18em"><tspan x="-60.298" y="0">TIMED AUCTION</tspan></text>
+  </g>
+  <line id="Линия_13" data-name="Линия 13" x2="126" transform="translate(133.931 357.291)" fill="none" stroke="#292f33" stroke-width="1"/>
+  <line id="Линия_14" data-name="Линия 14" x2="126" transform="translate(1479.431 357.291)" fill="none" stroke="#292f33" stroke-width="1"/>
+</svg>
