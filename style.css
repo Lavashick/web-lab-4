@@ -9,6 +9,7 @@
 body {
     font-family: sans-serif;
     font-family: 'Oswald', sans-serif;
+    color:#292F33;
 }
 nav {
     background-color: #CED6DC;
@@ -94,11 +95,11 @@ nav {
     color:grey;
 }
 .bcl span {
-    border-right: 1px solid black;
+    border-right: 1px solid #292F33;
     padding-right:20px;
 }
 .avatar img{
-    border:1px solid black;
+    border:1px solid #292F33;
     border-radius: 50%;
 }
 .avatar {
@@ -214,12 +215,12 @@ input:focus {
 
 }
 .descr_sec {
-    border-left:1px solid black;
-    border-right:1px solid black;
+    border-left:1px solid #292F33;
+    border-right:1px solid #292F33;
     
 } 
 .descr_thr {
-    border-right:1px solid black;
+    border-right:1px solid #292F33;
     
 } 
 .piece {
@@ -243,7 +244,7 @@ input:focus {
 .sides {
     border-radius: 50%; 
     margin-top:60px; 
-    border:1px solid black; 
+    border:1px solid #292F33; 
     width:38px;
     height: 38px;
 }
@@ -310,7 +311,7 @@ input:focus {
     float:left;
     width: 19vw;
     margin: 0;
-    border: 1px solid black;
+    border: 1px solid #292F33;
     margin-left:5px;
     margin-right:5px;
     
@@ -335,7 +336,7 @@ input:focus {
     background: linear-gradient(to top, #EEFF00 50%, transparent 50%);
     font-weight: 600;
     text-decoration: none;
-    color:black;
+    color:#292F33;
     margin-bottom: 40px;
 }
 .tbfto h4 {
@@ -376,7 +377,7 @@ input:focus {
     background: linear-gradient(to top, #EEFF00 50%, transparent 50%);
     font-weight: 600;
     text-decoration: none;
-    color:black;
+    color:#292F33;
     font-size: 12px;
 }
 .b3_left img {
@@ -405,7 +406,7 @@ input:focus {
     background: linear-gradient(to top, #EEFF00 50%, transparent 50%);
     font-weight: 600;
     text-decoration: none;
-    color:black;
+    color:#292F33;
     letter-spacing: 2px;
     font-size: 12px;
     text-transform: uppercase;
@@ -447,8 +448,8 @@ input:focus {
     font-size: 12px;
 }
 .speoff .offlist li:nth-child(2n) {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    border-left: 1px solid #292F33;
+    border-right: 1px solid #292F33;
 }
 .speoff .offlist li:first-child {
     padding-right:0;
@@ -464,7 +465,7 @@ input:focus {
 .offers ul li {
     width:279px;
     float:left;
-    border: .5px solid black;
+    border: .5px solid #292F33;
     margin-right: 25.5px;
 }
 .offers ul li img{
@@ -492,7 +493,7 @@ input:focus {
     box-sizing: border-box;
     opacity: 0;
     position: relative;
-    bottom:40px;
+    bottom:42px;
     left:1px
 }
 .func .butmain {
@@ -568,6 +569,7 @@ input:focus {
     width:100%;
     background-image: url(src/b4_main_bg.svg);
     background-size: contain;
+    height: 550px;
 }
 .b4 .item_1 {
     width:100px;
@@ -594,7 +596,7 @@ input:focus {
     text-align: center;
 }
 .item_descr a {
-    color: black;
+    color:#292F33;
     text-decoration: none;
 }
 .item_descr h5{
@@ -616,4 +618,124 @@ input:focus {
     font-weight: 500;
     font-size: 10px;
     padding-top: 5px;
+}
+.b5 {
+    background-color: #E6EBEF;
+    height: 615px;
+}
+.b5 h4 {
+    text-align: left;
+    padding-left: 50px;
+}
+.b5_left {
+    width:60%;
+    float:left;
+    box-sizing: content-box;
+    padding-right:10px;
+    margin-left:60px;
+    height: 650px;
+
+}
+.b5_right {
+    padding-left:10px;
+    width:30;
+    float:left;
+    box-sizing: border-box;
+}
+.b5_left_1 {
+    border-left:3px solid #292F33;
+    border-top:3px solid #292F33;
+    border-bottom:3px solid #292F33;
+    width:50%;
+    float:left;
+}
+.b5_left_1 img{
+    width:400px;
+}
+.b5_left_2 {
+    float:left;
+    margin-top: 1px;
+    border:1px solid #292F33;
+    border-left:none;
+    height: 423px;
+    width: 49%;
+}
+.b5_left_2 h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #292F33;
+    letter-spacing: 0.3px;
+    margin-top:120px;
+}
+.b5_left_2 p {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+.b5_left_2 h5 {
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.b5_left_2 a {
+    background: linear-gradient(to top, #EEFF00 40%, transparent 60%);
+}
+.b5_right {
+    height: 426px;
+}
+.b5_right_bot {
+    height: 210px;
+    margin-top:6px ;
+    box-sizing: border-box;
+}
+.b5_right_top {
+    height: 210px;
+    margin-bottom:6px ;
+    box-sizing: border-box;
+}
+.b5_right_bot_right {
+    border-top: 3px solid #292F33;
+    border-bottom: 3px solid #292F33;
+    border-right: 3px solid #292F33;
+    float:left;
+    height: 210px;
+    width:200px;
+}
+.b5_right_bot_left {
+    float:left;
+}
+.b5_right_top_left {
+    float:left;
+}
+.b5_right_top_right {
+    border-top: 3px solid #292F33;
+    border-bottom: 3px solid #292F33;
+    border-right: 3px solid #292F33;
+    float:left;
+    height: 208px;
+    width:200px;
+}
+.b5_right_top_left {
+    border-top: 1px solid #292F33;
+    border-bottom: 1px solid #292F33;
+    height: 210px;
+
+}
+.b5_right_bot_left {
+    border-top: 1px solid #292F33;
+    border-bottom: 1px solid #292F33;
+    height: 213px;
+}
+.b5_right h2 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.b5_right p{
+    padding-top: 20px;
+    height: 100px;
+    font-size: 10px;
+    text-align: center;
+    color: #707070;
+    line-height: 17px;
 }
