@@ -739,3 +739,8 @@ input:focus {
     color: #707070;
     line-height: 17px;
 }
+.x-mark {
+    position:relative;
+    left:-850px;
+    top: -80px;
+}
