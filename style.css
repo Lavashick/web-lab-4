@@ -3,7 +3,6 @@
     margin: 0;
     border: 0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
 
 
 body {
@@ -41,7 +40,7 @@ nav {
     display:inline;
 }
 #arrow_small {
-    fill:"#000";
+    fill:#000;
 }
 .nav-buttons button:first-child {
     border-radius: 5px 0 0 5px;
@@ -91,7 +90,7 @@ nav {
 }
 
 .bcl li a:hover {
-    transition: 1.225;
+    transition: 1.225s;
     color:grey;
 }
 .bcl span {
@@ -106,7 +105,7 @@ nav {
     position:relative;
     top:10px;
 }
-input[type="submit"] {
+.search input[type="submit"] {
     background:url(src/search.svg);
     background-size: cover;
     width:20px;
@@ -117,18 +116,18 @@ input[type="submit"] {
     float: right;
 }
 
-input[type="search"] {
-    border: none; /* Убираем рамку */
-    outline: none; /* Убираем свечение в Chrome и Safari */
-    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */ /* Ширина поля */
-    vertical-align: middle; /* Выравнивание по середине */
+.search input[type="search"] {
+    border: none; 
+    outline: none; 
+    -webkit-appearance: none; 
+    vertical-align: middle; 
     margin-left:10px;
     padding-bottom: 10px;
     padding-top: 10px;
     height: 40px;
     float: left;
     letter-spacing: 2px;
-    width:35vw;
+    width:20vw;
     font-size: 12px;
     background-color: #E6EBEF;
 
@@ -138,8 +137,9 @@ input[type="search"] {
     border-radius: 20px;
     display: block;
     float:left;
-    margin-left:435px;
     border:2px solid #292F33;
+    margin-left:550px;
+    margin-right:98px;
 }
 input:focus {
     outline:none;
@@ -159,7 +159,6 @@ input:focus {
     
 }
 .b-but-buttons li {
-/*     padding-top: 12%; */
     float:left;
     font-size:16px;
     font-weight: 600;
@@ -204,8 +203,8 @@ input:focus {
 }
 .battery {
     font-size: 15px;
-    font-family: Roboto;
-    font-weight: regular;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 .descr {
     font-size: 12px;
@@ -287,11 +286,12 @@ input:focus {
     background-image: url(src/b2_bg.svg);
 }
 .tbfto {
-    width:90vw;
+    width:80vw;
     margin-left: 5vw;
     background-size: cover;
     height: 580px;
     padding-top: 100px;
+    margin-left: 170px;
 }
 .tbfto h2 {
     text-align: center;
@@ -309,15 +309,15 @@ input:focus {
 }
 .tbfto ul li {
     float:left;
-    width: 19vw;
+    width: 15vw;
     margin: 0;
     border: 1px solid #292F33;
-    margin-left:5px;
-    margin-right:5px;
+    margin-left:10px;
+    margin-right:10px;
     
 }
 .tbfto ul li:first-child {
-    margin-left:0px;
+    margin-left:60px;
 }
 .tbfto ul li:last-child {
     margin-right:0px;
@@ -372,7 +372,7 @@ input:focus {
     text-transform: uppercase;
     letter-spacing: 2px;
     position:relative;
-    bottom:55px;
+    bottom:125px;
     right: -20px;
     background: linear-gradient(to top, #EEFF00 50%, transparent 50%);
     font-weight: 600;
@@ -382,10 +382,11 @@ input:focus {
 }
 .b3_left img {
     position:relative;
-    left:-30px;
+    left:-50px;
+    bottom: 60px;
 }
 .b3_right {
-    padding-top:180px;
+    padding-top:120px;
     width:53%;
     height: 530px;
     float:right;
@@ -411,18 +412,18 @@ input:focus {
     font-size: 12px;
     text-transform: uppercase;
     position:relative;
-    bottom: -50px;
+    bottom: -15px;
 }
 .b3_right h4{
     position:relative;
-    bottom:-33px;
+    bottom:-23px;
     left: 480px;
     width:100px;
 }
 .b3_right h2{
     transform: rotate(-90deg);
     position: relative;
-    top: -430px;
+    top: -450px;
     right: -160px;
     font-size: 150px;
 }
@@ -621,7 +622,7 @@ input:focus {
 }
 .b5 {
     background-color: #E6EBEF;
-    height: 615px;
+    height: 675px;
 }
 .b5 h4 {
     text-align: left;
@@ -638,7 +639,6 @@ input:focus {
 }
 .b5_right {
     padding-left:10px;
-    width:30;
     float:left;
     box-sizing: border-box;
 }
@@ -743,4 +743,223 @@ input:focus {
     position:relative;
     left:-850px;
     top: -80px;
+}
+.b6 {
+width:100vw;
+height: 730px;
+overflow-x: hidden;
+overflow-y: hidden;
+background-color: #E6EBEF;
+padding-top:600px;
+background: linear-gradient(to top, #CED6DC 60%,#E6EBEF 60%);
+}
+.b6 span {
+    position: relative;
+    top:-3333px;
+    left:120px;
+    font-size: 174px;
+    z-index: 2;
+    font-weight: bold;
+}
+.sag {
+    width:1000px;
+    height: 500px;
+    background-color: transparent;
+    z-index: 4;
+    position:relative;
+    top: -2900px;
+}
+.sag_left {
+    padding-left: 60px;
+    float:left;
+    width:440px;
+    height: 500px;
+    margin-left:60px;
+    border-left:3px solid #292F33 ;
+    border-top:3px solid #292F33 ;
+    border-bottom:3px solid #292F33 ;
+    z-index: 3;
+}
+.sag_left h2 {
+    margin-top:100px;
+    font-size: 26px;
+    letter-spacing: .3px;
+    color: #292F33;
+    padding-bottom: 150px;
+}
+.sag_left p {
+    width:400px;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.sag img {
+    float:left;
+    width:400px;
+    z-index: 7;
+}
+.taf {
+        position:relative;
+    left: -300px;
+    font-size: 150px;
+}
+.lastx {
+    position: relative;
+    left:-400px;
+    top:-1400px; 
+    z-index: 2;
+}
+.lastxx {
+    width:200px;
+    position:relative;
+    left:1200px;
+    top:-2800px;
+    z-index: 4;
+}
+.support {
+    position: relative;
+    top:-2950px;
+    z-index: 4 ;
+    left:80px; 
+    color:#292F33;
+    width:400px;
+}
+
+.support h4 {
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+.support ul li{
+ list-style-type: none;
+ line-height: 30px;
+ letter-spacing: 1.8px;
+ font-size: 15px;
+}
+.final_boss {
+    width:800px;
+    height:800px;
+    position: relative;
+    top:-3650px;
+    left:500px;
+    z-index: 5;
+    border-bottom:3px solid #292F33;
+    border-right:3px solid #292F33;
+}
+.boss_left {
+    width:400px;
+    padding-top: 50%;
+}
+.boss_search {
+    width: 325px; /* Ширина поля с кнопкой */
+    border-bottom: 1px solid #000; /* Параметры рамки */
+    min-height: 20px; /* Минимальная высота */
+    padding-bottom: 5px;
+}
+
+.boss_search input[type="search"] {
+    border: none; 
+    outline: none; 
+    -webkit-appearance: none; 
+    width: 280px; 
+    vertical-align: middle; 
+    background-color:transparent;
+    float:left;
+}
+
+.boss_search input[type="submit"] {
+    width: 39px; /* Ширина кнопки */
+    height: 20px; /* Высота кнопки */
+    border: none; /* Убираем рамку */
+    background: linear-gradient(to top, #EEFF00 50%, #CED6DC 50%);
+
+}
+.boss_left h4 {
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    margin-bottom:30px;
+}
+.boss_left h2 {
+    font-size: 26px;
+    margin-bottom:30px;
+}
+.boss_left p {
+    margin-bottom:30px;
+    
+}
+.usd10 svg {
+    float:left;
+}
+.usd10 p {
+    margin-left:80px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.usd10 {
+    padding-top:30px;
+}
+.boss_right {
+    width: 400px;
+    float:right;
+    position: relative;
+    top:-748px;
+}  
+.boss_right h1 {
+    border-top:3px solid #292F33;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 74px;
+    position: relative;
+    left:3px;
+}
+.boss_right h2 {
+    text-align: center;
+    font-size: 20px;
+}
+.boss_right .social {
+    padding-left:132px
+} 
+.social .facebook:hover #Эллипс_2{
+    fill: #ef0;
+}
+.social .facebook {
+    border:1px solid #292F33;
+    border-radius: 50%;
+}
+.social .inst:hover #Эллипс_23{
+    fill: #ef0;
+}
+.social .yt:hover #Эллипс_23{
+    fill: #ef0;
+}
+.social {
+    padding-top:50px;
+}
+.boss_links {
+    padding-left:140px;
+}
+.boss_links ul {
+    list-style-type: none;
+    font-size: 15px;
+    line-height: 50px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.copyright {
+    position: relative;
+    left:2px;
+    margin-top: 70px;
+    width:400px;
+    background-color:#292F33;
+    height: 90px;
+    color:#E6EBEF;
+    text-align: center;
+    padding-top: 60px;
+}
+.copyright h4 {
+    padding-top: 5px;
+    letter-spacing: 1.2px;
+}
+.b6 a {
+    color: #292F33;
+    text-decoration: none;
 }
